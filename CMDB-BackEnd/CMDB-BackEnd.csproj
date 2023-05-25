@@ -23,8 +23,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Model\" />
-    <Folder Include="Resource\" />
+    <Folder Include="Resource\Movie\" />
+    <Folder Include="Resource\Genre\" />
+    <Folder Include="Resource\Directors\" />
+    <Folder Include="Resource\Media Type\" />
+    <Folder Include="Resource\Tv_Show\" />
+    <Folder Include="Resource\Series\" />
   </ItemGroup>
 
 </Project>

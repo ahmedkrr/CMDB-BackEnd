@@ -3,7 +3,7 @@
     public class Actors
     {
         public int Actors_Id { get; private set; }
-        public string Actors_Name { get; private set; } 
+        public  string Actors_Name { get; private set; } 
         public DateTime Date_of_Birdth { get; private set; }
         public string Biography { get; private set; }
         public string Profile_Pic { get; private set; }
