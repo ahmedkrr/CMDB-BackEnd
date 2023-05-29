@@ -23,7 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Resource\Movie\" />
     <Folder Include="Resource\Tv_Show\" />
     <Folder Include="Resource\Series\" />
   </ItemGroup>

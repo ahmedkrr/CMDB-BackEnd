@@ -15,6 +15,20 @@
         public ICollection<Movie_Actors> Movie_Actors { get; private set; }
         public ICollection<Movie_Directors> Movie_Directors { get; private set; }
 
+        public Movie()
+        {
 
+        }
+
+        public Movie(string title, DateTime release_Date, string overView, double runtime, string poster_Url, double average_Rating, int mediaTypeId)
+        {
+            Title = title;
+            Release_Date = release_Date;
+            OverView = overView;
+            Runtime = runtime;
+            Poster_Url = poster_Url;
+            Average_Rating = average_Rating;
+            MediaTypeId = mediaTypeId;
+        }   
     }
 }
