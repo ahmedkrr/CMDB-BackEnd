@@ -8,5 +8,14 @@
         public Series Series { get; private set; }
         public int Series_Id { get; private set; }
 
+        public Series_Actors() { }
+
+        public Series_Actors(int actors_Id, int series_Id)
+        {
+            Actors_Id = actors_Id;
+            Series_Id = series_Id;
+        }
     }
+    
+
 }
